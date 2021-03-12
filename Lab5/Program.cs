@@ -17,7 +17,7 @@ namespace Lab5
 
                 var user = c.Utentis.Create();
                 user.DataNascita = new DateTime(2000, 1, 1);
-              
+              /*ho aggiunto un commento*/
                 c.Utentis.Add(user);
                 c.SaveChanges();
             }
